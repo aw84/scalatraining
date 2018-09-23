@@ -1,3 +1,5 @@
+package pl.aw84
+
 class MilTime private(val time: Int) extends AnyVal {
   def minutes = time % 100
 

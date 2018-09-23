@@ -1,4 +1,6 @@
-object Example {
+import pl.aw84.MilTime
+
+object Main {
   def main(args: Array[String]): Unit = {
     printAny("Hello Any")
     printUnit("Hello Unit")
